@@ -10,10 +10,16 @@ function passFail(score) {
 
     if(score >= 50)
     {
-        result = 'Pass';
+        result = 'Pass!';
     } else {
         result = 'Fail';
     }
 
     return result;
 }
+
+console.log(passFail(60));
+console.log(passFail(40));
+console.log(passFail(50));
+console.log(passFail(88));
+console.log(passFail(100));
