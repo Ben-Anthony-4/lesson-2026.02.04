@@ -8,7 +8,7 @@
 function passFail(score) {
     let result;
 
-    if(score > 50)
+    if(score >= 50)
     {
         result = 'Pass';
     } else {
